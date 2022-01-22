@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="text-white bg-black" style="font-family: 'Poppins';" onload="getYear()">
+    <nav class="py-5 px-10 lg:px-28 w-full flex justify-between absolute bg-transparent z-10">
+        <img class='w-16' src="assets/images/logo.png" class="" alt="logo">
+        <ul class="hidden lg:flex space-x-10 items-center">
+            <li><a class="active: text-yellow-300 border-yellow-300 border-b" href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/gallery.html">Gallery</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <button name="button" aria-label="menu" class="hamburger hamburger--elastic" type="button">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+    </nav>
+
+
+    <!--Icon Bar-->
+    <div class=" hidden fixed top-64 translate-y-1/2 z-50 left-20 space-y-3 lg:block">
+        <a href="#" class="block text-xl"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="block text-xl"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="block text-xl"><i class="fa fa-google"></i></a>
+        <a href="#" class="block text-xl"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="block text-xl"><i class="fa fa-youtube"></i></a>
+        <div class="border-l h-36 ml-2"></div>
+    </div>
+
+
+    <!-- Hero -->
+    <div class="block lg:flex w-full lg:h-screen px-10 lg:pl-48">
+        <div class=" w-full lg:w-1/2 pt-40">
+            <h1 class="text-7xl text-yellow-400 uppercase" style="font-family: 'Zen Tokyo Zoo';">Tattoo Parlour.</h1>
+            <p class="py-10 text-sm leading-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aspernatur molestiae eum, maiores non eius quisquam atque tempore numquam corrupti maxime?</p>
+
+            <p class="py-10 text-sm leading-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies velit vel lobortis porttitor. 
+                Integer sit amet volutpat lectus. Nam pellentesque ornare tincidunt. Proin maximus mauris in porta placerat. 
+                Nunc id tortor aliquam, gravida velit non, consequat sapien. Etiam laoreet, ex sed porttitor luctus, ante risus condimentum justo, in varius quam lacus vitae turpis. 
+                Maecenas vitae laoreet orci, tristique sagittis lacus. Proin in sagittis sem. Aenean mattis vulputate placerat. Quisque sodales hendrerit tincidunt. 
+                Vestibulum ultrices nibh laoreet sapien sagittis, rutrum tempor libero facilisis. Nullam eget sodales nisi, sagittis ullamcorper sem. </p>
+
+            <p class="text-sm leading-7">Aliquam placerat sem sed imperdiet pellentesque. Pellentesque dignissim malesuada consequat. Sed convallis diam nisl, quis fringilla nunc maximus ac. 
+                Fusce auctor ante non scelerisque volutpat. Nunc fringilla eleifend arcu, id bibendum magna sodales ac. Nulla sem urna, semper sit amet hendrerit non, semper a dolor. 
+                Duis vel libero quam. Fusce mollis metus ut auctor lobortis. Donec et lacinia libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id sapien tempus, cursus augue quis, venenatis enim. 
+                Quisque gravida ante risus, vitae fermentum turpis malesuada elementum.  </p>
+        </div>
+        <div class="hidden lg:block w-full lg:w-1/2 h-full bg-cover bg-no-repeat bg-right"
+            style="background-image: url('assets/images/homepage.jpg');">
+        </div>
+        <div class="w-full lg:hidden">
+            <img src="assets/images/homepage.jpg" alt="">
+        </div>
+    </div>
+
+    <main class="px-10 lg:px-36">
+        <!-- About -->
+
+        <div class="py-24 lg:py-36">
+            <h1 class="text-7xl text-yellow-400 uppercase" style="font-family: 'Zen Tokyo Zoo';">Book now and
+                join us.</h1>
+            <div class="block lg:flex w-full pt-20 space-y-20 lg:space-y-0 lg:space-x-14">
+                <div class="w-full lg:w-1/2">
+                    <p class="font-normal text-gray-200 text-sm leading-7">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Culpa facilis magni vero impedit inventore assumenda placeat voluptates a
+                        iste? Voluptatum voluptate, voluptatibus soluta ullam laboriosam totam. Magni dignissimos
+                        tempore voluptatum accusantium, reiciendis, accusamus necessitatibus autem, atque alias
+                        molestiae impedit! Ipsam molestias veritatis rem ducimus tempore quos esse ut nam et.</p>
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <p class="font-normal text-gray-200 text-sm leading-7">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Aut quo excepturi nisi, delectus praesentium et, fuga animi ipsum eveniet repellendus 
+                        non laborum consequuntur adipisci consectetur, fuga animi ipsum eveniet repellendus non laborum consequuntur adipisci consectetur.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="block lg:flex w-full py-24 lg:py-36 space-y-20 lg:space-y-0 lg:space-x-10">
+            <div class="block w-full lg:w-1/2">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1029.0132084176532!2d31.01205585230937!3d-29.83039683271732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef70766744eadd1%3A0x920fc73b9da7c962!2sTRADE%20MARK%20TATTOO!5e0!3m2!1sen!2sza!4v1629413318958!5m2!1sen!2sza"
+                    allowfullscreen="" loading="lazy" class="w-full h-96 lg:h-full"></iframe>
+            </div>
+            <div class="block w-full lg:w-1/2">
+                <h2 class="text-3xl lg:text-7xl text-yellow-400" style="font-family: 'Zen Tokyo Zoo';">
+                    BOOKING HOURS</h2>
+                <p class="pt-5 text-sm text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit, iste laudantium, placeat quae atque incidunt.</p>
+                <div class="flex justify-between border-b-4 border-dotted py-5">
+                    <span>Monday - Friday</span>
+                    <span>8am - 10pm</span>
+                </div>
+                <div class="flex justify-between border-b-4 border-dotted py-5">
+                    <span>Saturday</span>
+                    <span>8am - 10pm</span>
+                </div>
+                <div class="flex justify-between border-b-4 border-dotted py-5">
+                    <span>Sunday</span>
+                    <span>8am - 10pm</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center py-10">
+        <ul class="flex space-x-4 lg:space-x-10 items-center justify-center pb-10">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <img class='hidden sm:block w-16' src="assets/images/logo.png" class="" alt="logo">
+            <li><a href="/gallery.html">Gallery</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+
+        <p class="text-sm">© Copyright <span class="copyright-date text-white"></span> | Tattoo Parlour | All Rights Reserved</p>
+    </footer>
+
+    <script src="assets/js/masonry.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
+</body>
+
+</html>
