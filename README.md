@@ -1,6 +1,6 @@
 # Simple HTML based website
 
-This is a simple 4-page website made for a fictional tattoo parlour that can be used as a template for basically any website. This was done as practice and is contains basic code and images. You are welcome to use this freely. 
+This is a simple 4-page website made as an example for a tattoo parlour that can be used as a template for basically any website. This was done as practice and is contains basic code and images. You are welcome to use this freely. 
 
 It is written mostly in HTML and CSS with the help of Tailwind. 
 
